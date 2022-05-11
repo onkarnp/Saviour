@@ -13,7 +13,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Saviour"
         tools:targetApi="31">
-
+        <activity
+            android:name=".Common_queries_card"
+            android:exported="false" />
+        <activity
+            android:name=".Find_nearby_activity"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateProfile"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -23,40 +31,34 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".LoginActivity"
             android:exported="false" />
-
         <activity
             android:name=".signup_page"
             android:exported="false" />
-
         <activity
             android:name=".HomepageActivity"
             android:exported="false" />
-
         <activity
             android:name=".template"
             android:exported="false" />
-
         <activity
             android:name=".AllEventsActivity"
             android:exported="false" />
-
         <activity
             android:name=".AllUsersActivity"
             android:exported="false" />
-
         <activity
             android:name=".RequestBloodActivity"
             android:exported="false" />
-
         <activity
             android:name=".SearchDonarActivity"
             android:exported="false" />
 
-
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

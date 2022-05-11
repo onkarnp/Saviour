@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/ANDROID/Saviour/app/src/main/res/drawable/card_effect.xml" value="0.1345" />
+        <entry key="..\:/ANDROID/Saviour/app/src/main/res/layout/activity_all_users.xml" value="0.22327898550724637" />
+        <entry key="..\:/ANDROID/Saviour/app/src/main/res/layout/activity_homepage.xml" value="0.22327898550724637" />
+        <entry key="..\:/ANDROID/Saviour/app/src/main/res/layout/activity_signup_page.xml" value="0.22327898550724637" />
         <entry key="..\:/Users/Onkar Panchare/AndroidStudioProjects/Saviour/app/src/main/res/layout/activity_all_events.xml" value="0.2625" />
         <entry key="..\:/Users/Onkar Panchare/AndroidStudioProjects/Saviour/app/src/main/res/layout/activity_all_users.xml" value="0.2625" />
         <entry key="..\:/Users/Onkar Panchare/AndroidStudioProjects/Saviour/app/src/main/res/layout/activity_homepage.xml" value="0.2625" />
