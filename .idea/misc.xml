@@ -4,9 +4,14 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/kshit/AndroidStudioProjects/Saviour4/app/src/main/res/drawable/card_1.xml" value="0.2795" />
-        <entry key="..\:/Users/kshit/AndroidStudioProjects/Saviour4/app/src/main/res/layout/activity_homepage.xml" value="0.26721014492753625" />
+        <entry key="..\:/Users/kshit/AndroidStudioProjects/Saviour4/app/src/main/res/layout/activity_all_events.xml" value="0.1" />
+        <entry key="..\:/Users/kshit/AndroidStudioProjects/Saviour4/app/src/main/res/layout/activity_all_users.xml" value="0.1" />
+        <entry key="..\:/Users/kshit/AndroidStudioProjects/Saviour4/app/src/main/res/layout/activity_homepage.xml" value="0.1" />
         <entry key="..\:/Users/kshit/AndroidStudioProjects/Saviour4/app/src/main/res/layout/activity_login.xml" value="0.26721014492753625" />
         <entry key="..\:/Users/kshit/AndroidStudioProjects/Saviour4/app/src/main/res/layout/activity_main.xml" value="0.26721014492753625" />
+        <entry key="..\:/Users/kshit/AndroidStudioProjects/Saviour4/app/src/main/res/layout/activity_request_blood.xml" value="0.1" />
+        <entry key="..\:/Users/kshit/AndroidStudioProjects/Saviour4/app/src/main/res/layout/activity_search_donar.xml" value="0.1" />
+        <entry key="..\:/Users/kshit/AndroidStudioProjects/Saviour4/app/src/main/res/layout/activity_signup.xml" value="0.275" />
         <entry key="..\:/Users/kshit/AndroidStudioProjects/Saviour4/app/src/main/res/layout/activity_user_signup.xml" value="0.26721014492753625" />
       </map>
     </option>
