@@ -17,23 +17,15 @@ import com.example.saviour.R;
 public class LoginActivity extends AppCompatActivity {
 
 
-    EditText username, password;
-    ImageView logo;
-    TextView forgetPassword;
-    Button loginBtn;
-
+    EditText user_mail, login_password;
+    TextView login;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        
-        username = findViewById(R.id.login_username);
-        password = findViewById(R.id.login_password);
-        forgetPassword = findViewById(R.id.login_forget_password);
-        logo = findViewById(R.id.login_logo);
-        loginBtn = findViewById(R.id.login_button);
-
+        user_mail = (EditText) findViewById(R.id.user_mail);
+        login_password = (EditText) findViewById(R.id.login_password);
     }
 
     public void Homepage_activity(View view) {
