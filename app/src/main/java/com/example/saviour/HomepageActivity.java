@@ -56,7 +56,7 @@ public class HomepageActivity extends AppCompatActivity {
         common_queries_card.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), Common_queries_card.class);
+                Intent intent = new Intent(getApplicationContext(), common_queries.class);
                 startActivity(intent);
             }
         });

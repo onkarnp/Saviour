@@ -312,8 +312,8 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="0dp"
-                            android:contentDescription="Find Nearby"
-                            android:text="Find Nearby"
+                            android:contentDescription="Nearby Blood Banks"
+                            android:text="Near Blood banks"
                             android:textColor="#0353F4"
                             android:textSize="17sp" />
 

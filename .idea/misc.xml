@@ -5,6 +5,9 @@
       <map>
         <entry key="..\:/Users/Onkar Panchare/AndroidStudioProjects/Saviour/app/src/main/res/layout/activity_all_events.xml" value="0.2625" />
         <entry key="..\:/Users/Onkar Panchare/AndroidStudioProjects/Saviour/app/src/main/res/layout/activity_all_users.xml" value="0.2625" />
+        <entry key="..\:/Users/Onkar Panchare/AndroidStudioProjects/Saviour/app/src/main/res/layout/activity_common_queries.xml" value="0.2625" />
+        <entry key="..\:/Users/Onkar Panchare/AndroidStudioProjects/Saviour/app/src/main/res/layout/activity_common_queries_card.xml" value="0.2625" />
+        <entry key="..\:/Users/Onkar Panchare/AndroidStudioProjects/Saviour/app/src/main/res/layout/activity_find_nearby.xml" value="0.2625" />
         <entry key="..\:/Users/Onkar Panchare/AndroidStudioProjects/Saviour/app/src/main/res/layout/activity_homepage.xml" value="0.2625" />
         <entry key="..\:/Users/Onkar Panchare/AndroidStudioProjects/Saviour/app/src/main/res/layout/activity_login.xml" value="0.2625" />
         <entry key="..\:/Users/Onkar Panchare/AndroidStudioProjects/Saviour/app/src/main/res/layout/activity_main.xml" value="0.2484375" />
@@ -12,6 +15,7 @@
         <entry key="..\:/Users/Onkar Panchare/AndroidStudioProjects/Saviour/app/src/main/res/layout/activity_search_donar.xml" value="0.2625" />
         <entry key="..\:/Users/Onkar Panchare/AndroidStudioProjects/Saviour/app/src/main/res/layout/activity_signup_page.xml" value="0.264" />
         <entry key="..\:/Users/Onkar Panchare/AndroidStudioProjects/Saviour/app/src/main/res/layout/activity_template.xml" value="0.2484375" />
+        <entry key="..\:/Users/Onkar Panchare/AndroidStudioProjects/Saviour/app/src/main/res/layout/activity_update_profile.xml" value="0.2625" />
         <entry key="..\:/Users/Onkar Panchare/AndroidStudioProjects/Saviour/app/src/main/res/layout/options.xml" value="0.26145833333333335" />
       </map>
     </option>

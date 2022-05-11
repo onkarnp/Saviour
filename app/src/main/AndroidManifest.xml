@@ -14,7 +14,7 @@
         android:theme="@style/Theme.Saviour"
         tools:targetApi="31">
         <activity
-            android:name=".Common_queries_card"
+            android:name=".common_queries"
             android:exported="false" />
         <activity
             android:name=".Find_nearby_activity"
@@ -42,12 +42,6 @@
             android:exported="false" />
         <activity
             android:name=".template"
-            android:exported="false" />
-        <activity
-            android:name=".AllEventsActivity"
-            android:exported="false" />
-        <activity
-            android:name=".AllUsersActivity"
             android:exported="false" />
         <activity
             android:name=".RequestBloodActivity"
