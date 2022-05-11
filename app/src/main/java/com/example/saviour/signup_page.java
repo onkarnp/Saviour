@@ -9,6 +9,7 @@ import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
@@ -109,6 +110,9 @@ public class signup_page extends AppCompatActivity {
         register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                database = FirebaseDatabase.getInstance();
+                ref = database.getReference("users");
+
                 String fullName = name.getText().toString();
                 String mobileNo = phoneno.getText().toString();
                 String email_Id = email.getText().toString();
@@ -151,9 +155,16 @@ public class signup_page extends AppCompatActivity {
                 {
                     Toast.makeText(signup_page.this, "Please select your blood group", Toast.LENGTH_SHORT).show();
                 }
-                else{
+                else {
                     createUser();
+                    User user = new User(fullName,mobileNo,email_Id,adhaar_no,pin_code,Password,Bloodgrp,Gender);
+                    ref.child(adhaar_no).setValue(user);
+                    Toast.makeText(signup_page.this,"Successfully Registered",Toast.LENGTH_SHORT).show();
+                    startActivity(new Intent(signup_page.this,HomepageActivity.class));
+
                 }
+
+
             }
 
             public void createUser(){
@@ -167,36 +178,20 @@ public class signup_page extends AppCompatActivity {
                 String Gender = gender.getText().toString();
 
                 User user = new User(fullName,mobileNo,email_Id,adhaar_no,pin_code,Password,Bloodgrp,Gender);
-                if (!phoneno.getText().toString().trim().isEmpty()) {
-                    if ((phoneno.getText().toString().trim()).length() == 10) {
 
-
-                        register.setVisibility(View.INVISIBLE);
-//                        loadingBar.setTitle("Create Account");
-                        loadingbar.setMessage("Signing up");
-                        loadingbar.setCanceledOnTouchOutside(false);
-                        loadingbar.show();
-
-
-                    }
-                } else {
-                    loadingbar.dismiss();
-                    register.setVisibility(View.VISIBLE);
-                    Toast.makeText(signup_page.this, "Please enter correct number", Toast.LENGTH_SHORT).show();
-                }
 
             }
 
 
         });
 
-        alreadyRes.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
-                startActivity(intent);
-            }
-        });
+//        alreadyRes.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
+//                startActivity(intent);
+//            }
+//        });
 
 
         }
@@ -215,6 +210,12 @@ public class signup_page extends AppCompatActivity {
     }
 
 
+    public void loginActivity(View view) {
+        Toast toast = Toast.makeText(this, "",Toast.LENGTH_SHORT);
+        toast.show();
+        Intent intent = new Intent(signup_page.this, LoginActivity.class);
+        startActivity(intent);
+    }
 }
 
 

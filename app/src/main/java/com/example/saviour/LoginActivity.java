@@ -32,6 +32,15 @@ public class LoginActivity extends AppCompatActivity {
         Toast toast = Toast.makeText(this, "Logged in Successfully",Toast.LENGTH_SHORT);
         toast.show();
         Intent intent = new Intent(LoginActivity.this, HomepageActivity.class);
+        startActivity(intent);
+
+    }
+    public void register(View view){
+        Toast toast = Toast.makeText(this, "",Toast.LENGTH_SHORT);
+        toast.show();
+        Intent intent = new Intent(LoginActivity.this, signup_page.class);
+        startActivity(intent);
+
 
     }
 }
