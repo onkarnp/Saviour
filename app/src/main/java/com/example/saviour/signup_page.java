@@ -30,7 +30,6 @@ public class signup_page extends AppCompatActivity {
         pincode = findViewById(R.id.signup_pincode);
 
         register = (TextView) findViewById(R.id.register);
-        alreadyRes = findViewById(R.id.alreadyRes);
 
         gender = findViewById(R.id.blood_group);
         String[] option1 = {"Select", "Male", "Female"};

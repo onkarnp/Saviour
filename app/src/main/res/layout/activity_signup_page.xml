@@ -9,7 +9,7 @@ android:background="@drawable/back7"
 tools:context=".signup_page">
 
     <androidx.appcompat.widget.LinearLayoutCompat
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:orientation="vertical"
@@ -97,9 +97,10 @@ tools:context=".signup_page">
             android:inputType="textPassword" />
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
 
             <com.google.android.material.textfield.TextInputLayout
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
@@ -107,6 +108,7 @@ tools:context=".signup_page">
                 android:layout_height="wrap_content"
                 android:layout_marginRight="5dp"
                 android:ems="20"
+                android:layout_weight="1"
                 android:hint="Blood Group">
 
                 <AutoCompleteTextView
@@ -121,12 +123,13 @@ tools:context=".signup_page">
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
+                android:layout_weight="1"
                 android:ems="10"
                 android:hint="Gender">
 
                 <AutoCompleteTextView
                     android:id="@+id/gender"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Gender" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -143,13 +146,29 @@ tools:context=".signup_page">
             android:layout_marginBottom="10dp"
             android:textColor="@color/black"/>
 
-        <TextView
-            android:id="@+id/alreadyRes"
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Already Registered?"
-            tools:ignore="MissingConstraints" />
+            android:orientation="horizontal">
 
+        <TextView
+            android:id="@+id/already_registered"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already Registered? "
+            android:textSize="15dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/logintext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  LOG IN"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        </LinearLayout>
     </androidx.appcompat.widget.LinearLayoutCompat>
 
 
