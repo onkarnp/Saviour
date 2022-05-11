@@ -11,7 +11,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class activity_signup extends AppCompatActivity {
+public class SignupActivity extends AppCompatActivity {
 
     EditText name,phoneno,email,adhaar,address,pincode;
     ImageView logo;
@@ -38,8 +38,8 @@ public class activity_signup extends AppCompatActivity {
 
     public void Homepage_activity(View view) {
 
-        Toast toast = Toast.makeText(activity_signup.this,"Registered Successfully",Toast.LENGTH_SHORT);
+        Toast toast = Toast.makeText(SignupActivity.this,"Registered Successfully",Toast.LENGTH_SHORT);
         toast.show();
-        Intent intent = new Intent(this,activity_signup.class);
+        Intent intent = new Intent(this, SignupActivity.class);
     }
 }

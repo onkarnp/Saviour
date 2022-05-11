@@ -9,6 +9,10 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import com.example.saviour.HomepageActivity;
+import com.example.saviour.R;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -33,8 +37,9 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     public void Homepage_activity(View view) {
-        Toast toast = new Toast
-        Intent intent = new Intent(LoginActivity.this,Homepage_activity.class);
+        Toast toast = Toast.makeText(this, "Logged in Successfully",Toast.LENGTH_SHORT);
+        toast.show();
+        Intent intent = new Intent(LoginActivity.this, HomepageActivity.class);
 
     }
 }
