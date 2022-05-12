@@ -7,6 +7,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.google.firebase.auth.FirebaseAuth;
+
 public class HomepageActivity extends AppCompatActivity {
 
     CardView update_profile_card,request_blood_card,search_donor_card,find_nearby_card,common_queries_card,log_out_card;
@@ -65,6 +67,8 @@ public class HomepageActivity extends AppCompatActivity {
         log_out_card.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                FirebaseAuth.getInstance().signOut();
                 Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
                 startActivity(intent);
             }
